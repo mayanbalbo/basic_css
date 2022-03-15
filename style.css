@@ -1,0 +1,48 @@
+#card{
+    border-style: solid;
+    border-width: 10px 20px 30px 40px;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 10%;
+    width: 400px;
+    height: 200px;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Coda', cursive;
+    font-size: 22px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-family: 'outra-fonte', cursive;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: outra-fonte;
+    src: url(./fonts/Hubballi-Regular.ttf);
+}
+
+#instagram{
+    list-style-image: url(./images/instagram.png);
+}
+
+.facebook{
+    list-style-image: url(./images/github.png);
+}
+
+.linkedin{
+    list-style-image: url(./images/linkedin.png);
+}
